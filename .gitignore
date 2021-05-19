@@ -1,0 +1,16 @@
+logs/*
+node_modules/
+public/informes/*.pdf
+public/plantillas/*.pdf
+public/documentos/*.pdf
+public/externos/*.pdf
+public/apidoc/*.*
+public/apidoc/*
+public/documentos/*
+src/config/config.json
+src/config/config.js
+npm-debug.log
+*.env
+.jshintrc
+.vscode
+package-lock.json
