@@ -1,0 +1,42 @@
+{
+  "development": {
+    "username": "postgres" ,
+    "password": "123456",
+    "database": "plantillas_db",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres",
+    "pool": {
+      "max": 15,
+      "min": 0,
+      "idle": 10000
+    },
+    "timezone": "America/La_Paz"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "123456",
+    "database": "plantillas_db",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres",
+    "pool": {
+      "max": 15,
+      "min": 0,
+      "idle": 10000
+    }
+  },
+  "production": {
+    "username": "postgres",
+    "password": "123456",
+    "database": "plantillas_db",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres",
+    "pool": {
+      "max": 15,
+      "min": 0,
+      "idle": 10000
+    }
+  }
+}
